@@ -26,3 +26,31 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/Bhushan8673/AI-Health-Assistance.git
 cd AI-Health-Assistance
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Application
+```bash
+python app.py
+```
+### 4. Access in Browser
+Open your browser and go to:
+```bash
+http://localhost:5000
+```
+### Tech Stack
+- Frontend: HTML, CSS
+- Backend: Python, Flask
+- Machine Learning: scikit-learn
+- Deployment (optional): Render / Heroku / Localhost
+
+### Future Improvements
+- Add more accurate and diverse datasets
+
+- Add user authentication and patient history tracking
+
+- Improve UI with React or other frontend frameworks
+
+- Deploy on cloud platform (e.g., Render, Firebase, AWS)
