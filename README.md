@@ -1,12 +1,28 @@
-# React + Vite
+# AI Health Assistance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Health Assistance is a lightweight health prediction web application that uses machine learning to predict possible diseases based on user-selected symptoms. The project integrates a trained ML model with a Flask backend and a simple HTML frontend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Predicts diseases based on input symptoms
+- Integrated Machine Learning model using scikit-learn
+- Flask-based web server
+- Clean and simple HTML user interface
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `app.py` – Main Flask application that handles routing and prediction
+- `templates/` – Contains the HTML files for the UI
+- `static/` – CSS files and other static assets
+- `model/` – Trained ML model and dataset files
+- `requirements.txt` – List of required Python packages
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Bhushan8673/AI-Health-Assistance.git
+cd AI-Health-Assistance
